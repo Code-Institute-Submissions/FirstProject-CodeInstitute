@@ -1,0 +1,39 @@
+
+/*     ---Title---     */
+
+.title-wrapper {
+    height: 95vh;
+    width: 100%;
+    background: url('../images/title-image.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*     ---Why---     */
+
+.why-color {
+    background-color: #232b2b;
+}
+
+/*     ---Quote---     */
+
+.quote-wrapper {
+    height: 95vh;
+    width: 100%;
+    background: url('../images/quote-image.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*     ---Footer---     */
+
+.ftr {
+    width: 100%;
+    height: 75px;
+    background-color: #232b2b;
+}
