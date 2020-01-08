@@ -1,5 +1,9 @@
 Body {
-    
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
 }
 
 /*     ---Color---     */
@@ -26,8 +30,11 @@ Body {
 
 .title {
     font-family: 'Great Vibes', cursive;
-    padding-top: 500px;
-    font-size: 100px;
+    font-size: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
 }
 
 /*     ---Why---     */
@@ -40,6 +47,10 @@ h2 {
 
 .why-txt {
     padding-bottom: 40px;
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 /*     ---Quote---     */
@@ -52,6 +63,10 @@ h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.quote-txt {
+    margin-top: 700px;
 }
 
 
