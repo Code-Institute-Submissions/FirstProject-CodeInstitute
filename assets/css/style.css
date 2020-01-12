@@ -1,9 +1,11 @@
+/*     ---Fonts---     */
+
 Body {
     font-family: 'Oswald', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel', sans-serif;
 }
 
 /*     ---Color---     */
@@ -16,6 +18,42 @@ h1, h2, h3, h4, h5, h6 {
     color: #e9eded;
 }
 
+.standout-color {
+    color: #fbfd58;
+}
+
+/*     ---Nav---     */
+
+.btn {
+    background: none;
+    border: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+}
+
+.dropdown .dropdown-menu{
+    display: block;
+    opacity: 0;
+    background: none;
+    visibility: hidden;
+    -moz-transition:    all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+    transition:         all 0.2s ease-in-out;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropdown-item {
+    color: #e9eded;
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
 /*     ---Header---     */
 
 .title-wrapper {
@@ -31,13 +69,13 @@ h1, h2, h3, h4, h5, h6 {
 .title {
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
-    padding-right: 25px;
-    padding-top: 20px;
+    padding-right: 35px;
+    padding-top: 30px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     z-index: 1;
 }
 
-/*     ---Why---     */
+/*     ---Genre---     */
 
 h2 {
     text-transform: uppercase;
@@ -45,7 +83,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-.why-txt {
+.genre-txt {
     padding-bottom: 40px;
     letter-spacing: 0.5px;
     font-size: 1.5em;
@@ -75,4 +113,20 @@ h2 {
 .ftr {
     width: 100%;
     height: 75px;
+}
+
+.ftr-txt-madeby {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.ftr-txt-edu {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.ftr-icon {
+    
 }
