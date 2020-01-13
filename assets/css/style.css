@@ -4,7 +4,7 @@ Body {
     font-family: 'Oswald', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Cinzel', sans-serif;
 }
 
@@ -36,11 +36,11 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     background: none;
     visibility: hidden;
-    -moz-transition:    all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition:      all 0.2s ease-in-out;
-    -ms-transition:     all 0.2s ease-in-out;
-    transition:         all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -53,7 +53,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #e9eded;
     font-size: 25px;
     text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    font-family: 'Cinzel', sans-serif;
 }
+
+.dropdown {
+    margin: 10px;
+}
+
 /*     ---Header---     */
 
 .title-wrapper {
@@ -63,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    -ms-background-size: cover;
     background-size: cover;
 }
 
@@ -100,6 +107,7 @@ h2 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    -ms-background-size: cover;
     background-size: cover;
 }
 
@@ -117,8 +125,9 @@ h2 {
 
 .ftr-txt-madeby {
     font-size: 30px;
-    margin-top: 10px;
+    padding-top: 15px;
     font-family: 'Great Vibes', cursive;
+    padding-left: 50px;
 }
 
 .ftr-txt-edu {
@@ -127,6 +136,32 @@ h2 {
     font-family: 'Cinzel', sans-serif;
 }
 
+.list-inline-item {
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
 .ftr-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    background: #e9eded;
+    border-radius: 25%;
+    padding-top: 5px;
+    color: #000;
+    -moz-transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+    -ms-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+    transition: background 0.1s ease-in-out;
     
+}
+
+.ftr-icon:hover {
+    background: #babdbd;
+}
+
+.ftr-list {
+    list-style-type: none;
 }
