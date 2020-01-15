@@ -4,7 +4,11 @@ Body {
     font-family: 'Oswald', sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Cinzel', sans-serif;
 }
 
@@ -19,7 +23,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .standout-color {
-    color: #fbfd58;
+    color: #f5f7f7;
 }
 
 /*     ---Nav---     */
@@ -31,10 +35,11 @@ h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
-.dropdown .dropdown-menu{
+.dropdown .dropdown-menu {
     display: block;
     opacity: 0;
     background: none;
+    border: none;
     visibility: hidden;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -50,7 +55,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .dropdown-item {
-    color: #e9eded;
+    color: #f5f7f7;
     font-size: 25px;
     text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
     font-family: 'Cinzel', sans-serif;
@@ -59,62 +64,6 @@ h2, h3, h4, h5, h6 {
 .dropdown {
     margin: 10px;
 }
-
-/*     ---Header---     */
-
-.title-wrapper {
-    height: 95vh;
-    width: 100%;
-    background: url('../images/title-image.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
-
-.title {
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    padding-right: 35px;
-    padding-top: 30px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    z-index: 1;
-}
-
-/*     ---Genre---     */
-
-h2 {
-    text-transform: uppercase;
-    padding-top: 40px;
-    margin-bottom: 40px;
-}
-
-.genre-txt {
-    padding-bottom: 40px;
-    letter-spacing: 0.5px;
-    font-size: 1.5em;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-/*     ---Quote---     */
-
-.quote-wrapper {
-    height: 95vh;
-    width: 100%;
-    background: url('../images/quote-image.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
-
-.quote-txt {
-    margin-top: 700px;
-}
-
 
 /*     ---Footer---     */
 
@@ -155,7 +104,7 @@ h2 {
     -ms-transition: background 0.1s ease-in-out;
     -o-transition: background 0.1s ease-in-out;
     transition: background 0.1s ease-in-out;
-    
+
 }
 
 .ftr-icon:hover {
@@ -164,4 +113,73 @@ h2 {
 
 .ftr-list {
     list-style-type: none;
+}
+
+/*------------------INDEX------------------*/
+
+/*     ---Header---     */
+
+.title-wrapper {
+    height: 95vh;
+    width: 100%;
+    background: url('../images/title-image.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    padding-right: 40px;
+    padding-top: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
+}
+
+/*     ---Genre---     */
+
+h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.genre-txt {
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*     ---Quote---     */
+
+.quote-wrapper {
+    height: 95vh;
+    width: 100%;
+    background: url('../images/quote-image.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.quote-txt {
+    padding-top: 600px;
+}
+
+/*------------------PERSONAL------------------*/
+
+/*------------------PAGES------------------*/
+
+/*     ---Intro---     */
+
+.intro-wrapper {
+    width: 100%;
+    height: 75vh;
+    background-color: green;
 }
