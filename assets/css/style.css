@@ -115,11 +115,18 @@ h6 {
     list-style-type: none;
 }
 
+/*     ---Divider---     */
+
+.divider {
+    width: 100%;
+    height: 50px;
+}
+
 /*------------------INDEX------------------*/
 
 /*     ---Header---     */
 
-.title-wrapper {
+.main-title-wrapper {
     height: 95vh;
     width: 100%;
     background: url('../images/title-image.jpg') no-repeat bottom right fixed;
@@ -174,12 +181,61 @@ h2 {
 
 /*------------------PERSONAL------------------*/
 
+/*     ---Header---     */
+
+.personal-title-wrapper {
+    width: 100%;
+    height: 30vh;
+    background-color: green;
+}
+
+.test5 {
+    background-color: red;
+    padding: 2px 0 50px;
+}
+
+.test6 {
+    width: 30%;
+    margin-top: 40px;
+}
+
+.test7 {
+    
+}
+
 /*------------------PAGES------------------*/
 
-/*     ---Intro---     */
+/*     ---Header---     */
 
-.intro-wrapper {
+.pages-title-wrapper {
     width: 100%;
-    height: 75vh;
+    height: 60vh;
     background-color: green;
+}
+
+/*     ---Embeds---     */
+
+.test1 {
+    background-color: red;
+    padding: 2px 0 50px;
+}
+
+.test2 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 10px solid orange;
+    border-radius: 25px;
+}
+
+.test3 {
+    border: 5px solid white;
+}
+
+.test4 {
+    background-color: blue;
+    border: 5px solid white;
+    border-radius: 12px;
+    height: 500px;
 }
