@@ -2,6 +2,7 @@
 
 Body {
     font-family: 'Oswald', sans-serif;
+    background-color: #232b2b;
 }
 
 h2,
@@ -35,6 +36,13 @@ h6 {
     font-size: 20px;
 }
 
+.btn-nav {
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Cinzel', sans-serif;
+
+}
+
 .dropdown .dropdown-menu {
     display: block;
     opacity: 0;
@@ -63,6 +71,7 @@ h6 {
 
 .dropdown {
     margin: 10px;
+    width: 285px;
 }
 
 /*     ---Footer---     */
@@ -127,7 +136,7 @@ h6 {
 /*     ---Header---     */
 
 .main-title-wrapper {
-    height: 95vh;
+    height: 98vh;
     width: 100%;
     background: url('../images/title-image.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -139,11 +148,15 @@ h6 {
 
 .title {
     font-family: 'Great Vibes', cursive;
-    font-size: 60px;
-    padding-right: 40px;
-    padding-top: 35px;
+    font-size: 70px;
+    padding-top: 45px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     z-index: 1;
+}
+
+.title:hover {
+    color: #f5f7f7;
+    font-size: 71px;
 }
 
 /*     ---Genre---     */
@@ -165,7 +178,7 @@ h2 {
 /*     ---Quote---     */
 
 .quote-wrapper {
-    height: 95vh;
+    height: 98vh;
     width: 100%;
     background: url('../images/quote-image.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -199,9 +212,7 @@ h2 {
     margin-top: 40px;
 }
 
-.test7 {
-    
-}
+.test7 {}
 
 /*------------------PAGES------------------*/
 
@@ -238,4 +249,9 @@ h2 {
     border: 5px solid white;
     border-radius: 12px;
     height: 500px;
+}
+
+.testnav {
+    background-color: none;
+    height: 5vh;
 }
