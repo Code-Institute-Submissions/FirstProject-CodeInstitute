@@ -223,8 +223,6 @@ h2 {
     margin-top: 40px;
 }
 
-.test7 {}
-
 /*------------------PAGES------------------*/
 
 /*     ---Header---     */
@@ -232,19 +230,30 @@ h2 {
 .pages-title-wrapper {
     width: 100%;
     height: 98vh;
-    background-color: green;
+    background: url('../images/kiss.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 /*     ---Embeds---     */
 
-.test1 {
-    background-color: red;
+.cards-background {
+    background: url('../images/greywall.jpg') bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
     padding: 2px 0 50px;
 }
 
 .card {
     margin: 0;
     padding: 0;
+    background: none;
 }
 
 .card-deck {
@@ -258,4 +267,5 @@ h2 {
 
 .card-text {
     font-size: 24px;
+    
 }
