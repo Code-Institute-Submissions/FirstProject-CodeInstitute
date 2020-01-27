@@ -36,7 +36,6 @@ h6 {
 
 .btn-nav {
     font-size: 30px;
-    padding-top: 20px;
     font-family: 'Cinzel', sans-serif;
     background: none;
     border: none;
@@ -84,6 +83,10 @@ h6 {
 
 .nav-hard {
     color: #cc3232;
+}
+
+.mobile-desc {
+    font-size: 25px;
 }
 
 /*     ---Footer---     */
@@ -136,13 +139,6 @@ h6 {
     list-style-type: none;
 }
 
-/*     ---Divider---     */
-
-.divider {
-    width: 100%;
-    height: 50px;
-}
-
 /*------------------INDEX------------------*/
 
 /*     ---Header---     */
@@ -167,11 +163,10 @@ h6 {
 }
 
 .title:hover {
-    color: #f5f7f7;
-    font-size: 71px;
+    color: #e9eded;
 }
 
-/*     ---Genre---     */
+/*     ---DESCRIPTION--     */
 
 h2 {
     text-transform: uppercase;
@@ -179,7 +174,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-.genre-txt {
+.desc-txt {
     padding-bottom: 40px;
     letter-spacing: 0.5px;
     font-size: 1.5em;
@@ -204,31 +199,11 @@ h2 {
     padding-top: 300px;
 }
 
-/*------------------PERSONAL------------------*/
-
-/*     ---Header---     */
-
-.personal-title-wrapper {
-    width: 100%;
-    height: 30vh;
-    background-color: green;
-}
-
-.test5 {
-    background-color: red;
-    padding: 2px 0 50px;
-}
-
-.test6 {
-    width: 30%;
-    margin-top: 40px;
-}
-
 /*------------------PAGES------------------*/
 
 /*     ---Header---     */
 
-.beginner-title-wrapper {
+.easy-title-wrapper {
     width: 100%;
     height: 98vh;
     background: url('../images/kiss.jpg') no-repeat bottom right fixed;
@@ -239,7 +214,7 @@ h2 {
     background-size: cover;
 }
 
-.intermediate-title-wrapper {
+.medium-title-wrapper {
     width: 100%;
     height: 98vh;
     background: url('../images/hammerfall.jpg') no-repeat bottom right fixed;
@@ -250,7 +225,7 @@ h2 {
     background-size: cover;
 }
 
-.seasoned-title-wrapper {
+.hard-title-wrapper {
     width: 100%;
     height: 98vh;
     background: url('../images/amon-amarth.jpg') no-repeat bottom right fixed;
@@ -294,8 +269,6 @@ h2 {
 }
 
 .wiki-link {
-    width: 35px;
-    height: 35px;
     font-size: 20px;
     background: #e9eded;
     border-radius: 50%;
@@ -310,4 +283,141 @@ h2 {
 
 .wiki-link:hover {
     background: #babdbd;
+}
+
+/*------------------MEDIA QUERIES------------------*/
+
+@media screen and (max-width: 1400px) {
+    .title {
+        font-size: 65px;
+    }
+
+    .btn-nav {
+        font-size: 25px;
+    }
+
+    .dropdown-item {
+        font-size: 18px;
+    }
+
+    .dropdown {
+        width: 248px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .btn-nav {
+        font-size: 20px;
+    }
+
+    .dropdown-item {
+        font-size: 15px;
+    }
+
+    .dropdown {
+        width: 203px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .dropdown {
+        width: 40px;
+    }
+
+    .dropdown-item {
+        font-size: 20px;
+    }
+
+    .title {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .desc-txt {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .wiki-link {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .title {
+        font-size: 30px;
+    }
+
+    .dropdown-item {
+        font-size: 15px;
+    }
+
+    .desc-txt {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .quote-txt {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .card-title {
+        font-size: 10px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .wiki-link {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .title {
+        display: none;
+    }
+
+    .dropdown-menu {
+        width: 20vw;
+    }
+
+    .dropdown-item {
+        font-size: 15px;
+    }
+
+    .mobile-desc {
+        font-size: 15px;
+    }
+
+}
+
+/*------------------WIP------------------*/
+
+.wip {
+    display: none;
 }
