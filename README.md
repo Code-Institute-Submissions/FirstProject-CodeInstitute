@@ -5,7 +5,7 @@ The main idea behind this site are recommendations for people that have just got
 
 ## Demo
 
-https://xasthar.github.io/HowtointoMetal/
+https://xasthar.github.io/FirstProject-CodeInstitute/
 
 ## UX
 
